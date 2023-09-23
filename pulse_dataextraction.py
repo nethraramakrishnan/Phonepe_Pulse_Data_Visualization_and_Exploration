@@ -4,7 +4,7 @@ import pandas as pd
 
 # Extracting Aggregated Transaction details from Statewise,Yearwise and Quarterwise
 def extract_aggregated_transactions():
-    path1 = "C://Users//Nethra R//OneDrive//Desktop//phonepe pulse data//data//aggregated//transaction//country//india//state//"
+    path1 = "C://Users//User//Desktop//phonepe pulse data//data//aggregated//transaction//country//india//state//"
     agg_trans_list = os.listdir(path1)
     columns1 = {'State': [], 'Year': [], 'Quarter': [], 'Transaction_type': [], 'Transaction_count': [],
                 'Transaction_amount': []}
@@ -38,7 +38,7 @@ def extract_aggregated_transactions():
 
 # Extracting Aggregated User details from Statewise,Yearwise and Quarterwise
 def extract_aggregated_user():
-    path2 = "C://Users//Nethra R//OneDrive//Desktop//phonepe pulse data//data//aggregated//user//country//india//state//"
+    path2 = "C://Users//User//Desktop//phonepe pulse data//data//aggregated//user//country//india//state//"
     agg_user_list = os.listdir(path2)
     columns2 = {'State': [], 'Year': [], 'Quarter': [], 'Brands': [], 'Count': [],
                 'Percentage': []}
@@ -73,7 +73,7 @@ def extract_aggregated_user():
 
 # Extracting Map Transaction details from Statewise,Yearwise and Quarterwise
 def extract_map_transactions():
-    path3 = "C://Users//Nethra R//OneDrive//Desktop//phonepe pulse data//data//map//transaction//hover//country//india//state//"
+    path3 = "C://Users//User//Desktop//phonepe pulse data//data//map//transaction//hover//country//india//state//"
     map_trans_list = os.listdir(path3)
     columns3 = {'State': [], 'Year': [], 'Quarter': [], 'District': [], 'Count': [],
                 'Amount': []}
@@ -108,7 +108,7 @@ def extract_map_transactions():
 
 # Extracting Map user details from Statewise,Yearwise and Quarterwise
 def extract_map_user():
-    path_4 = "C://Users//Nethra R//OneDrive//Desktop//phonepe pulse data//data//map//user//hover//country//india//state//"
+    path_4 = "C://Users//User//Desktop//phonepe pulse data//data//map//user//hover//country//india//state//"
     map_user_list = os.listdir(path_4)
     columns4 = {'State': [], 'Year': [], 'Quarter': [], 'District': [], 'registeredUsers': [],'AppOpens': []}
 
@@ -142,7 +142,7 @@ def extract_map_user():
 
 # Extracting Top Transaction details from Statewise,Yearwise and Quarterwise
 def extract_top_transactions():
-    path5 = "C://Users//Nethra R//OneDrive//Desktop//phonepe pulse data//data//top//transaction//country//india//state//"
+    path5 = "C://Users//User//Desktop//phonepe pulse data//data//top//transaction//country//india//state//"
     top_trans_list = os.listdir(path5)
     columns5 = {'State': [], 'Year': [], 'Quarter': [], 'Pincode': [], 'Transaction_count': [],
                 'Transaction_amount': []}
@@ -177,7 +177,7 @@ def extract_top_transactions():
 
 # Extracting Top User details from Statewise,Yearwise and Quarterwise
 def extract_top_user():
-    path6 = "C://Users//Nethra R//OneDrive//Desktop//phonepe pulse data//data//top//user//country//india//state//"
+    path6 = "C://Users//User//Desktop//phonepe pulse data//data//top//user//country//india//state//"
     top_user_list = os.listdir(path6)
     columns6 = {'State': [], 'Year': [], 'Quarter': [], 'Pincode': [], 'Registeredusers': []}
 
