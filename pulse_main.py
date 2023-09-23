@@ -8,7 +8,7 @@ import plotly.express as px
 
 # #To clone the Github Pulse repository use the following code
 # url_name = "https://github.com/PhonePe/pulse.git"
-# local_directory = "C://Users//Nethra R//OneDrive//Desktop//phonepe pulse data"
+# local_directory = "C://Users//User//Desktop//phonepe pulse data"
 # git.Repo.clone_from(url_name,local_directory)
 
 # Calling convert_to_csvfile() fn from pulse_dataextraction file("Extracting data from each JSON file, storing it in a DataFrame, and then converting the DataFrame into a CSV file.")
@@ -16,8 +16,8 @@ import plotly.express as px
 
 # # Creating connection with mysql workbench
 connection = sql.connect(host="localhost",
-                   user="root",
-                   password="Test1234",
+                   user="user",
+                   password="password",
                    database  = "phonepe_pulse")
 mycursor = connection.cursor(buffered=True)
 
